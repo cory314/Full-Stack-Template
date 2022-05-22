@@ -6,5 +6,5 @@ mongoose
 let mySchema = mongoose.Schema({
   //schema here
 });
-
+//
 let database = mongoose.model("NAMEOFDATABSE", mySchema);
