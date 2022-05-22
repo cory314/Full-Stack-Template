@@ -18,7 +18,8 @@
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
     "dev": "webpack serve --open",
-    "server": "nodemon ./server"
+    "server": "nodemon ./server/",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",
